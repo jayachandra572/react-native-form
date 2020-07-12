@@ -4,13 +4,16 @@
   "private": true,
   "scripts": {
     "start": "react-native start",
+    "android": "react-native run-android",
     "test": "jest",
     "lint": "eslint --ext .ts,.tsx app/"
   },
   "dependencies": {
     "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@react-native-community/checkbox": "^0.4.2",
     "@types/i18n-js": "^3.0.1",
     "@types/micromatch": "^3.1.0",
+    "@types/react-native-datepicker": "^1.7.0",
     "@types/styled-components": "^4.1.19",
     "@typescript-eslint/eslint-plugin": "^2.3.0",
     "@typescript-eslint/parser": "^2.3.0",
@@ -23,8 +26,12 @@
     "react": "16.8.6",
     "react-native": "0.60.5",
     "react-native-config": "github:luggit/react-native-config#1eb6ac0",
+    "react-native-datepicker": "^1.7.2",
     "react-native-gesture-handler": "1.4.1",
+    "react-native-paper": "^3.10.1",
+    "react-native-reanimated": "^1.9.0",
     "react-native-router-flux": "4.0.6",
+    "react-native-vector-icons": "^7.0.0",
     "react-navigation": "4.0.5",
     "react-navigation-stack": "2.8.2",
     "styled-components": "^4.3.2"

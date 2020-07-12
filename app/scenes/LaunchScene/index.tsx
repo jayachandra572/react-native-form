@@ -4,6 +4,7 @@ import {Image, Text} from 'react-native';
 import Images from '../../images';
 
 import {LaunchScreenWrapper} from './styledComponents';
+import DatePicker from '../../components/DatePicker';
 
 class LaunchScene extends Component {
   render() {
@@ -12,6 +13,7 @@ class LaunchScene extends Component {
         <LaunchScreenWrapper>
           <Image source={Images.ibHubsLogo} />
           <Text>Hello World</Text>
+          <DatePicker />
         </LaunchScreenWrapper>
       </Fragment>
     );
